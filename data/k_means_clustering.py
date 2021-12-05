@@ -8,3 +8,6 @@ import matplotlib.pyplot as plt
 df = pd.read_csv(os.path.join('.', 'data', 
                               'banknote-authentication-dataset-.csv'))
 
+# Calculate statistical measures
+# print(df.describe())
+
